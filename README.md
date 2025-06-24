@@ -73,8 +73,10 @@ This is an early prototype toward a geospatial simulation tool that visualizes:
 -📍 Custom data overlays (e.g., population density, zoning)
 
 ```bash
-coordinate = (37.7749, -122.4194)  # San Francisco
+ coordinate = (40.7256507332256, -74.00061540241315)  # McNally Jackson NYC
 
 # Add a marker (extension idea)
-folium.Marker(location=coordinate, popup="San Francisco").add_to(m)
+folium.Marker(location=coordinate, popup="McNally Jackson NYC").add_to(m)
 ```
+
+<img width="912" alt="McNally Jackson Coordinates" src="https://github.com/user-attachments/assets/a6a572f2-e217-4980-8dfb-764348217c20" />
